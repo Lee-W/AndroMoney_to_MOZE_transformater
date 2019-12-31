@@ -9,6 +9,11 @@ pandas = "*"
 click = "*"
 
 [dev-packages]
+black = "*"
+flake8 = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
